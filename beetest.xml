@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<!-- This a small example test suite mainly intended to demonstrate the syntax -->
+<beetest>
+<properties>    
+	<property name="numlines">
+		<description>Number of lines in the file</description>
+		<script>Scripts/numlines.sh</script>
+		<type>Integer</type>
+	</property>
+	
+	<property name="hostname">
+		<description>Host entry of first line in syslog</description>
+		<script>Scripts/hostname.sh</script>
+		<type>String</type>
+	</property>	
+	
+	<property name="checksum">
+		<description>MD5 sum of system.log file</description>
+		<script>Scripts/checksum.sh</script>
+		<type>String</type>
+	</property>
+	<property name="checkfloat">
+		<description>first float in floatlog</description>
+		<script>Scripts/checkfloat.sh</script>
+		<type>Float</type>
+                <absoluteprecision>1.0E-3</absoluteprecision>
+	</property>
+	<property name="checkfloat2">
+		<description>check last float in floatlog</description>
+		<script>Scripts/checkfloat2.sh</script>
+		<type>Float</type>
+                <absoluteprecision>1.0E-3</absoluteprecision>
+	</property>
+</properties>
+
+<testsuite name="basic">
+	<description>Example test suite</description>
+	<date>2011-05-18</date>
+	<author>Peter Larsson</author>
+		
+	<testcase name="syslog">
+		<path>Tests/syslog</path>
+		<numlines>43</numlines>
+		<hostname>localhost</hostname>
+		<checksum>cbc5b72b695e7ae3d7a33d95f7f719f0</checksum>
+	</testcase>
+
+	<testcase name="authlog">
+		<path>Tests/authlog</path>
+		<numlines>9</numlines>
+		<hostname>localhost</hostname>
+		<checksum>e0eadd22bac9c16acf4cec8b3059bedf</checksum>
+	</testcase>
+</testsuite>
+
+<testsuite name="basic2">
+	<description>Example test suite2</description>
+	<date>2011-05-18</date>
+	<author>Peter Larsson</author>
+		
+	<testcase name="syslog">
+		<path>Tests/syslog</path>
+		<numlines>43</numlines>
+		<hostname>localhost</hostname>
+		<checksum>cbc5b72b695e7ae3d7a33d95f7f719f0</checksum>
+	</testcase>
+
+	<testcase name="authlog">
+		<path>Tests/authlog</path>
+		<numlines>9</numlines>
+		<hostname>localhost</hostname>
+		<checksum>e0eadd22bac9c16acf4cec8b3059bedf</checksum>
+	</testcase>
+		
+</testsuite>
+
+
+<testsuite name="basic3">
+        <description>Example test suite3</description>
+        <date>2013-11-07</date>
+        <author>Alin Marin Elena</author>
+
+        <testcase name="floatlog">
+                <path>Tests/floatlog</path>
+                <checkfloat>42.0</checkfloat>
+                <checkfloat2 tolerance="1.0E-2">42.0</checkfloat2>
+        </testcase>
+</testsuite>
+
+</beetest>

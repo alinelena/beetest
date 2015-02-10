@@ -1,0 +1,44 @@
+May 16 00:36:00 localhost blued[23]: [setSystemPreference] syncs returns false
+May 16 00:36:03: --- last message repeated 2 times ---
+May 16 00:36:03 localhost com.apple.launchd[1] (com.apple.bsd.dirhelper): Throttling respawn: Will start in 10 seconds
+May 16 00:36:03 localhost bootlog[49]: BOOT_TIME: 1305531356 0
+May 16 00:36:03 localhost com.apple.launchd[1] (com.apple.smb.sharepoints[31]): Exited with exit code: 71
+May 16 00:36:07 localhost /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow[37]: Login Window Application Started
+May 16 00:36:07 localhost com.apple.launchd[1] (com.apple.bsd.dirhelper): Throttling respawn: Will start in 6 seconds
+May 16 00:36:09: --- last message repeated 1 time ---
+May 16 00:36:09 localhost configd[13]: New network configuration saved
+May 16 00:36:10 localhost configd[13]: bootp_session_transmit: bpf_write(en1) failed: Network is down (50)
+May 16 00:36:10 localhost configd[13]: DHCP en1: INIT transmit failed
+May 16 00:36:10 localhost configd[13]: network configuration changed.
+May 16 00:36:10 localhost blued[23]: [_setUserPreference] syncs returns false
+May 16 00:36:10 localhost com.apple.kextd[10]: Can't load /System/Library/Extensions/IOSerialFamily.kext/Contents/PlugIns/InternalModemSupport.kext - no code for running kernel's architecture.
+May 16 00:36:10 localhost com.apple.kextd[10]: Failed to load /System/Library/Extensions/IOSerialFamily.kext/Contents/PlugIns/InternalModemSupport.kext - (libkern/kext) requested architecture/executable not found.
+May 16 00:36:10 localhost com.apple.kextd[10]: Load com.apple.driver.InternalModemSupport failed; removing personalities.
+May 16 00:36:11 localhost blued[23]: [_setUserPreference] syncs returns false
+May 16 00:36:13 localhost fontd[76]: Database content version mismatch (stored(15) != expected(14))
+May 16 00:36:13 localhost fontd[76]: Failed to open read-only database, regenerating DB
+May 16 00:36:13 localhost mDNSResponder[36]: mDNSResponder mDNSResponder-258.18 (Feb 17 2032 20:04:38) starting
+May 16 00:36:14 localhost com.apple.UserEventAgent-LoginWindow[99]: dontAutoLoad = EMPTY!
+May 16 00:36:14 localhost com.apple.usbmuxd[27]: usbmuxd-211 built on Jan 13 2032 at 04:20:20 on Jan 13 2032 at 04:20:20, running 32 bit
+May 16 00:36:14 localhost com.apple.service_helper[111]: launchctl: Error unloading: com.apple.backupd-auto
+May 16 00:36:14 localhost com.apple.service_helper[111]: launchctl: Error unloading: com.apple.backupd-wake
+May 16 00:36:14 localhost com.apple.service_helper[111]: launchctl: Error unloading: com.apple.backupd-attach
+May 16 00:36:14 localhost com.apple.fontd[76]: FODBCheck: foRec->annexNumber != kInvalidAnnexNumber (0)
+May 16 00:36:14 localhost com.apple.loginwindow[37]: Setting boot completed.
+May 16 00:36:14 localhost com.apple.fontd[76]: FODBCheck: foRec->annexNumber != kInvalidAnnexNumber (0)
+May 16 00:36:15 localhost /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Support/genatsdb[108]: *GENATSDB* FontObjects generated = 237
+May 16 00:36:19 localhost configd[13]: network configuration changed.
+May 16 00:36:48: --- last message repeated 1 time ---
+May 16 00:36:48 localhost Language Chooser[98]: Cannot load BootPanel.pdf from (null)
+May 16 00:36:48 localhost com.apple.loginwindow[37]: 2032-05-16 00:36:48.169 Language Chooser[98:903] Cannot load BootPanel.pdf from (null)
+May 16 00:36:48 localhost loginwindow[37]: USER_PROCESS: 37 console
+May 16 00:37:40 localhost Setup Assistant[123]: *** WARNING: Method selectRow:byExtendingSelection: in class NSTableView is deprecated. It will be removed in a future release and should no longer be used.
+May 16 00:37:47 localhost Setup Assistant[123]:   (SYS) We've received count = 1 systems
+May 16 00:37:56 localhost configd[13]: network configuration changed.
+May 16 00:38:12 localhost com.apple.coreservicesd[56]: ThrottleProcessIO: throttling disk i/o
+May 16 00:38:59 localhost Setup Assistant[123]: **** -[NetworkTimeClient start] /etc/ntp.conf doesn't exist. You need to create it first before ntpd can start sucesfully
+May 16 00:38:59 localhost com.apple.service_helper[138]: org.ntp.ntpd: Already loaded
+May 16 00:40:01 localhost com.apple.kextcache[145]: /System/Library/Extensions/IOSerialFamily.kext/Contents/PlugIns/InternalModemSupport.kext doesn't support architecture x86_64; omitting from prelinked kernel.
+May 16 00:40:03 localhost kextd[10]: updated kernel boot caches
+May 16 00:40:10 localhost com.apple.kextcache[145]: Created prelinked kernel /System/Library/Caches/com.apple.kext.caches/Startup/kernelcache_x86_64.8E114F91.
+May 16 00:43:38 localhost Setup Assistant[123]: Unknown class MBSPAMPopUpButtonCell in Interface Builder file at path /System/Library/CoreServices/Setup Assistant.app/Contents/Resources/RegSection.bundle/Contents/Resources/English.lproj/Reg_SPAM.ni
